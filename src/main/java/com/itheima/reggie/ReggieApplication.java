@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ServletComponentScan
 @EnableTransactionManagement//开启事务,对应项目里出现的事务
-@EnableCaching//开启Spring Cache注解方式的缓存功能
+@EnableCaching//开启Spring Cache注解方式的缓存功能。
 public class ReggieApplication {
     public static void main(String[] args) {
         SpringApplication.run(ReggieApplication.class,args);
